@@ -1,0 +1,6 @@
+/*
+Revising the Select Query I
+
+*/
+//Code:
+SELECT * FROM CITY WHERE COUNTRYCODE='USA' AND POPULATION > 100000;
