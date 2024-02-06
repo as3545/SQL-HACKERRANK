@@ -3,7 +3,8 @@ Query the list of CITY names from STATION that do not start with vowels. Your re
 
 */
 //Code
-SELECT DISTINCT CITY WHERE CITY NOT LIKE 'A%'
+SELECT DISTINCT CITY FROM STATION
+WHERE CITY NOT LIKE 'A%'
 AND CITY NOT LIKE 'E%'
 AND CITY NOT LIKE 'I%'
 AND CITY NOT LIKE 'O%'
