@@ -3,4 +3,6 @@ Query the smallest Northern Latitude (LAT_N) from STATION that is greater than .
 */
 
 //Code
-select round(min(LAT_N),4) from station where LAT_N > 38.7880
+select round((LAT_N),4) from station where LAT_N > 38.7880
+order by LAT_N
+limit 1;
